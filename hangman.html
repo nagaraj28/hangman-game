@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Hangman Game</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body >
+        <nav class="heading">
+            <h2>Welcome to HangMan Game!</h2>
+        </nav>
+        <div id="letters-container"></div>
+        <div id="guessed-letters-container"></div>
+        <div><p id="life-id"></p></div>
+        <div class="restart-btn-container">
+            <button id="hint-btn">hint</button>
+            <button id="restart-btn">restart</button>
+        </div>
+        <div class="hint-txt-container">
+            <p id="hint-txt"></p>
+        </div>
+        <div class="modal-ctnr">
+            <div class="modal-sub-ctnr">
+                <div>
+                    <h2 class="modal-heading-txt"></h2>
+                </div>
+                <div class="restart-btn-container">
+                    <button id="play-again-btn">Play Again</button>
+                </div>
+            </div>
+        </div>
+        <script defer src="hangman-logic.js"></script>
+    </body>
+
+</html>
